@@ -79,7 +79,7 @@ function EquipoCard({ nombre, ciudad, img, onEliminar }) {
 function Footer() {
   return (
     <footer className="bg-dark text-white text-center p-3">
-      <p className="mb-0">© 2025 Liga MX Fan Page | Desarrollado por Nayelli</p>
+      <p className="mb-0"> Desarrollado por Nayelli</p>
     </footer>
   );
 }
@@ -109,7 +109,7 @@ function App() {
       {
         nombre: nuevoNombre,
         ciudad: nuevaCiudad,
-        img: nuevaImg ? URL.createObjectURL(nuevaImg) : "img/default.png",
+        img: nuevaImg ? URL.createObjectURL(nuevaImg) : "img",
       },
     ]);
 
