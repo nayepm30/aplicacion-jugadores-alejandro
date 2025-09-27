@@ -79,7 +79,7 @@ function EquipoCard({ nombre, ciudad, img, onEliminar }) {
 function Footer() {
   return (
     <footer className="bg-dark text-white text-center p-3">
-      <p className="mb-0"> Desarrollado por Nayelli</p>
+      <p className="mb-0"> Desarrollado por gabriel</p>
     </footer>
   );
 }
